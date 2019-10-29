@@ -1,0 +1,31 @@
+GUI d
+GUI r
+STRING notepad.exe
+SHIFT ENTER
+ENTER
+STRING @echo off
+ENTER
+STRING color 02
+ENTER
+STRING :start
+ENTER
+STRING echo %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random%
+ENTER
+STRING goto start
+ENTER
+CTRL SHIFT ENTER
+STRING test.bat
+ENTER
+ENTER
+GUI r
+STRING cmd
+SHIFT ENTER
+ENTER
+STRING chdir %HOMEPATH%\desktop
+ENTER
+STRING start test.bat
+ENTER
+ALT SPACE
+DOWN
+REPEAT 3
+ENTER
